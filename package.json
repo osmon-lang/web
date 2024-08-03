@@ -1,0 +1,23 @@
+{
+  "name": "osmon",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format:check": "prettier --check \"**/*.{ts,tsx,md,mdx}\"",
+    "format": "prettier --write --check \"**/*.{ts,tsx,md,mdx}\""
+  },
+  "devDependencies": {
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@7.14.0"
+}

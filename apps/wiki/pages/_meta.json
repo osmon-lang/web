@@ -1,0 +1,24 @@
+{
+  "index": {
+    "title": "Asosiy",
+    "type": "page"
+  },
+  "about": {
+    "title": "Ma'lumot",
+    "type": "page"
+  },
+  "docs": {
+    "title": "Dokumentatsiya",
+    "type": "page"
+  },
+  "devs": {
+    "title": "Dasturchilar",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Jamiyat ↗",
+    "type": "page",
+    "href": "https://t.me/osmonchat",
+    "newWindow": true
+  }
+}
